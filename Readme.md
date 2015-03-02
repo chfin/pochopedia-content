@@ -16,10 +16,13 @@ For rendering the documents to HTML, templates (directory `template`) are used a
 Documents and schemas are [YAML](http://www.yaml.org/) files, templates are written in [Djula](http://mmontone.github.io/djula/).
 Schemas support inheritance (one schema can "include" keys of other schemas) and templates are usually based on `template/main.tmpl`.
 
-To get an impression of how the system works, have a look at the EG files ([`data/eg/`](data/eg), `schema/{`[`piece`](schema/piece.yaml),[`choral`](schema/choral.yaml),[`serial`](schema/serial.yaml),[`eg-choral`](schema/eg-choral.yaml),[`eg-choral-redirect`](schema/eg-choral-redirect.yaml)}`.yaml`, [`template/eg-choral.tmpl`](template/eg-choral.tmpl)) and the person files ([`data/persons/`](data/persons), [`schema/person.yaml`](schema/person.yaml), [`template/person.tmpl`](template/person.tmpl)).
+To get an impression of how the system works, have a look at the EG files ([`data/eg/`](data/eg), `schema/{`[`piece`](schema/piece.yaml),[`choral`](schema/choral.yaml),[`serial`](schema/serial.yaml),[`eg-choral`](schema/eg-choral.yaml),[`eg-choral-redirect`](schema/eg-choral-redirect.yaml)`}.yaml`, [`template/eg-choral.tmpl`](template/eg-choral.tmpl)) and the person files ([`data/persons/`](data/persons), [`schema/person.yaml`](schema/person.yaml), [`template/person.tmpl`](template/person.tmpl)).
 
 ## Contributing
 
 You can contribute as usual using pull requests and issues. Feature branches for larger collections are appreciated.
+
+To verify that your data compiles correctly, use the [main pochopedia project](https://github.com/chfin/pochopedia) and run it locally as described there using your fork of this repository instead of this repository as content.
+An easier possibility to develop this database is planned, help with this is highly welcome.
 
 More information to come.

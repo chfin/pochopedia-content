@@ -1,0 +1,13 @@
+# contributor: chfin <chfin@freenet.de>
+# name: person (pochopedia data file)
+# key: person
+# expand-env: ((yas-indent-line 'fixed))
+# --
+# person: ${1:name}
+schema: person
+name: ${1:name}
+birth: ${2:geburtsdatum}
+death: ${3:todesdatum}
+wikipedia: https://de.wikipedia.org/wiki/${1:$(replace-regexp-in-string " " "_" yas-text)}
+description: |
+  $4

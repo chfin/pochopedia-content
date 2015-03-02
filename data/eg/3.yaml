@@ -3,14 +3,16 @@ schema: eg-choral
 title: Gott, heiliger Schöpfer aller Stern
 composer: persons/v_gwinner
 key: Es-Dur
-time-sig: 3/2 2/2 4/2
+time-sig: '3/2 2/2 4/2'
 voices: SATB
 year:
-poet: Thomas Müntzer
+poet: persons/t_müntzer
+text-year: 1523
+text-desc: 'nach dem Hymnus "Conditor alme siderum"'
 melodist:
 melody-desc: Kempten um 1000
 intonation: persons/v_gwinner
 eg-number: 3
 eg-sub:
 previous: eg/2
-next: 
+next: eg/4

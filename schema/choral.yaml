@@ -3,12 +3,18 @@
 # Erweitert das Schema piece um Eigenschaften, die spezifisch für Choräle sind,
 # z.B. Text, Textdichter, Melodist usw.
 template: choral
-link: <% @var title %>
+link: '{{ title }}'
 include: piece
 keys:
 #  text:        # Liedtext # besser in der Übersicht
   poet:        # Textdichter
+    foreign: person
+    link: true
+  poet-desc:   # Zusatz zum Texter
+  text-year:   # Jahr der Textdichtung
   melodist:    # Melodist
+    foreign: person
+    link: true
   melody-desc: # Melodiebeschreibung (z.B. Köln um 1200)
   intonation:  # Intonation
     foreign: person

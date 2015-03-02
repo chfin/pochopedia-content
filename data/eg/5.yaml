@@ -1,0 +1,18 @@
+# Choralbuch 5
+schema: eg-choral
+previous: eg/4
+next: eg/6
+title: Gottes Sohn ist kommen
+composer: persons/g_wiese
+key: Es-Dur
+time-sig: '2/2'
+voices: SATB
+year: 1410
+poet: persons/böhmische_brüder
+text-desc: 
+text-year: 1544
+melodist: 
+melody-desc: '"Ave hierarchia" Hohenfurt'
+intonation: persons/g_wiese
+eg-number: 5
+eg-sub: 

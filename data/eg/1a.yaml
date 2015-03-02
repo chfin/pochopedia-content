@@ -3,10 +3,11 @@ schema: eg-choral
 title: Macht hoch die Tür
 composer: persons/b_schloemann
 key: Es-Dur
-time-sig: 6/4
+time-sig: '6/4'
 voices: SATB
 year:
-poet: Georg Weißel
+poet: persons/g_weissel
+text-year: (1623) 1642
 melodist:
 melody-desc: Halle 1704
 intonation: persons/v_gwinner

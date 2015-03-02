@@ -1,6 +1,8 @@
 # schema file: eg-choral-redirect.yaml
 # Schema für EG-Choräle ohne eigenen Satz
 template: eg-choral-redirect
+link: '{{ title }} [EG {{ eg-number }}]'
+include: serial
 keys:
   title:
   eg-number:

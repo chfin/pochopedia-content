@@ -43,14 +43,14 @@
   <div class="medium-6 large-4 columns end">
     <section>
       <dl class="dl-horizontal">
-        <dt>Text</dt><dd>{{ poet }}</dd>
+        <dt>Text</dt>
+        <dd>{{ poet }} {{ text-year }} {{ poet-desc }}</dd>
         <dt>Melodie</dt>
-        <dd>
-          {% if melodist %}{{ melodist }}{% endif %}
-          {% if melody-desc %}{{ melody-desc }}{% endif %}
-        </dd>
+        <dd>{{ melodist }} {{ year }} {{ melody-desc }}</dd>
         <dt>Satz</dt><dd>{{ composer }}</dd>
+        {% if intonation %}
         <dt>Intonation</dt><dd>{{ intonation }}</dd>
+        {% endif %}
       </dl>
     </section>
   </div>

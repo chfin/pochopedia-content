@@ -1,0 +1,18 @@
+# Choralbuch 4
+schema: eg-choral
+title: Nun komm, der Heiden Heiland
+composer: persons/m_vulpius
+key: g-dorisch
+time-sig: '4/4'
+voices: SATB
+year: 1524
+melodist: persons/m_luther
+melody-desc: Einsiedeln 12. Jh.
+poet: persons/m_luther
+text-year: 1524
+text-desc: 'nach dem Hymnus "Veni redemptor gentium"'
+intonation: persons/v_gwinner
+eg-number: 4
+eg-sub: 
+previous: eg/3
+next: eg/5

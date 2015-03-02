@@ -1,0 +1,24 @@
+{# template file: eg-choral-redirect #}
+
+{% extends "main.tmpl" %}
+
+{% block content %}
+<nav class="prev-next hide-for-print row">
+  <div class="medium-6 columns hanging">
+    {% if previous %}
+    <a href="{{ previous._url }}">&laquo; {{ previous._link_text }}</a>
+    {% endif %}
+  </div>
+  <div class="medium-6 columns text-right hanging">
+    {% if next %}
+    <a href="{{ next._url }}">{{ next._link_text }} &raquo;</a>
+    {% endif %}
+  </div>
+</nav>
+
+<h1 class="page-header">
+  {{ title }}
+  <small>[EG {{ eg-number }}]</small>
+</h1>
+Melodie: {{ redirect }}
+{% endblock %}

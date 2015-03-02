@@ -1,16 +1,17 @@
 # Choralbuch 2
 schema: eg-choral
 title: Er ist die rechte Freudensonn (Kanon)
-composer:
+composer: persons/p_e_ruppel.yaml
 key: Es-Dur
-time-sig: 6/4
+time-sig: '6/4'
 voices: Kanon + SATB
 year: 1955/1992
-poet: Georg Weißel
-melodist:
-melody-desc: Halle 1704
+poet: persons/g_weissel
+text-year: (1623) 1642
+melodist: persons/p_e_ruppel.yaml
+melody-desc: Kanon, nach Halle 1704
 intonation:
 eg-number: 2
 eg-sub:
-previous: eg/1a
+previous: eg/1b
 next: eg/3
